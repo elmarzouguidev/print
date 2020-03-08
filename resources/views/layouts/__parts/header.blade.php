@@ -6,9 +6,9 @@
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-youtube-play"></i></a>
                 <a href="#"><i class="fa fa-pinterest"></i></a>
-            </div><!-- /.social-block -->
+            </div><!-- /.social-block 7E7F82 -->
             <div class="logo-block">
-                <a href="/"><img src="images/resources/logo-1-1.png" alt="Awesome Image" /></a>
+                <a href="/"><img src="images/resources/bgo.png" alt="Awesome Image" /></a>
             </div><!-- /.logo-block -->
             <div class="right-block">
                 <a href="#"><i class="fa fa-envelope"></i>needhelp@example.com</a>
@@ -28,42 +28,13 @@
             <div class="main-navigation" id="main-nav-bar">
                 <ul class="navigation-box">
                     <li class=" current ">
-                        <a href="index.html">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.html">Home One</a></li>
-                            <li><a href="index2.html">Home Two</a></li>
-                            <li><a href="index.html">Header Versions</a>
-                                <ul class="sub-menu">
-                                    <li><a href="index.html">Header One</a></li>
-                                    <li><a href="index2.html">Header Two</a></li>
-                                </ul><!-- /.sub-menu -->
-                            </li>
-                        </ul><!-- /.sub-menu -->
+                        <a href="{{route('home')}}">Home</a>
                     </li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li>
-                        <a href="service.html">Our Services</a>
-                        <ul class="sub-menu">
-                            <li><a href="service.html">Our Services</a></li>
-                            <li><a href="all-service.html">All Services</a></li>
-                            <li><a href="single-service.html">Service Details</a></li>
-                        </ul><!-- /.sub-menu -->
-                    </li>
-                    <li>
-                        <a href="all-project.html">Latest Projects</a>
-                        <ul class="sub-menu">
-                            <li><a href="all-project.html">Latest Projects</a></li>
-                            <li><a href="single-project.html">Project Details</a></li>
-                        </ul><!-- /.sub-menu -->
-                    </li>
-                    <li>
-                        <a href="blog.html">Our News</a>
-                        <ul class="sub-menu">
-                            <li><a href="blog.html">News Grid</a></li>
-                            <li><a href="blog-details.html">News Details</a></li>
-                        </ul><!-- /.sub-menu -->
-                    </li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    {{-- <li><a href="{{route('about')}}">About Us</a></li>--}}
+                    <li><a href="{{route('promos')}}">DEALS</a></li>
+                    <li><a href="{{route('products')}}">PRODUITS</a></li>
+                    <li><a href="{{route('portfolio')}}">PORTFOLIO</a></li>
+                    <li><a href="{{route('contact')}}">Contact Us</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
             <div class="right-side-box">

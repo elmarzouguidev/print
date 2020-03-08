@@ -12,6 +12,15 @@
 */
 
 Route::get('/',['uses'=>'SiteController@index','as'=>'home']);
+Route::get('/about',['uses'=>'SiteController@about','as'=>'about']);
+Route::get('/promos',['uses'=>'SiteController@promos','as'=>'promos']);
+Route::get('/products',['uses'=>'SiteController@products','as'=>'products']);
+Route::get('/portfolio',['uses'=>'SiteController@portfolio','as'=>'portfolio']);
+Route::get('/portfolio/{slug}',['uses'=>'SiteController@portfolioSingle','as'=>'portfolioSingle']);
+
+Route::get('/contact',['uses'=>'SiteController@contact','as'=>'contact']);
+
+
 
 
 Route::group(['prefix' => 'theadmin'], function () {

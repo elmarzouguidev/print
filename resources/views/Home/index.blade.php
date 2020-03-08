@@ -8,6 +8,7 @@
     @include('Home.service')
     @include('Home.testimonial')
     @include('Home.section-a')
+    @include('Home.faq')
     @include('Home.promo')
     @include('Home.project')
     @include('Home.contact')

@@ -82,11 +82,11 @@ a:visited {
 }
 
 .thm-base-bg {
-    background-color: #35c5af;
+    background-color: #f1b207;
 }
 
 .thm-primary-bg {
-    background-color: #ef425a;
+    background-color: #f1b207;
 }
 
 .thm-gray-bg {
@@ -98,7 +98,7 @@ a:visited {
 }
 
 .thm-primary-color {
-    color: #ef425a;
+    color: #f1b207;
 }
 
 hr.style-one {
@@ -1124,7 +1124,7 @@ hr.style-one {
     vertical-align: middle;
     color: #FFFFFF;
     font-size: 18px;
-    background-color: #ef425a;
+    background-color: #f1b207;
     padding: 19.5px 50px;
     transition: all .4s ease;
     margin-top: 40px;
@@ -1640,7 +1640,7 @@ hr.style-one {
 .contact-two__form button[type=submit] {
     border: none;
     outline: none;
-    background-color: #35c5af;
+    background-color: #f1b207;
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -3731,7 +3731,7 @@ hr.style-one {
 }
 
 .accrodion-grp .accrodion.active .accrodion-title {
-    background-color: #35c5af;
+    background-color: #f1b207;
 }
 
 .accrodion-grp .accrodion.active .accrodion-title h4 {

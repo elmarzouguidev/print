@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="content-block">
-                        <a href="#"><img src="images/resources/logo-1-2.png" alt="Awesome Image" /></a>
+                        <a href="#"><img src="images/resources/logo-w.png" alt="Awesome Image" /></a>
                         <div class="menu-link">
                             <a href="#">Terms of use</a>
                             <span class="sep">.</span>

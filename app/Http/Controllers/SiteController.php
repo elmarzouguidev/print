@@ -12,4 +12,33 @@ class SiteController extends Controller
     {
         return view('Home.index');
     }
+    public function about()
+    {
+        return view('About.index');
+    }
+
+    public function products()
+    {
+        return view('Product.index');
+    }
+
+    public function promos()
+    {
+        return view('Deals.index');
+    }
+
+    public function portfolio()
+    {
+        return view('Portfolio.index');
+    }
+
+    public function portfolioSingle($slug)
+    {
+        return view('Portfolio.single.index');
+    }
+
+    public function contact()
+    {
+        return view('Contact.index');
+    }
 }
