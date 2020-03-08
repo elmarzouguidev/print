@@ -11,7 +11,7 @@
     @include('Home.faq')
     @include('Home.promo')
     @include('Home.project')
-    @include('Home.contact')
+    {{--@include('Home.contact')--}}
     @include('Home.blog')
 
 @endsection

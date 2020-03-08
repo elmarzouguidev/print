@@ -2035,14 +2035,12 @@ hr.style-one {
 }
 
 .cta-three__btn {
-    background-color: #35c5af;
+    background-color: #000000;
     color: #fff;
     transition: all .4s ease;
 }
 
-.cta-three__btn:hover {
-    background-color: #ef425a;
-}
+
 
 .cta-three__features {
     margin: 0;
@@ -3167,7 +3165,7 @@ hr.style-one {
     border-radius: 50%;
     text-align: center;
     line-height: 42px;
-    background-color: #35c5af;
+    background-color: #f1b207;
     transition: all .4s ease;
 }
 

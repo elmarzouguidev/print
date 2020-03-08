@@ -2,40 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8f896f0-397f-4f03-8686-56999b8fcb55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/About/about.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/About/brand.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/About/counter.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/About/faq.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/About/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/About/team.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/About/testimonial.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/About/top.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Contact/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Contact/map.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Contact/section.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Contact/top.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Deals/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Deals/other.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Deals/section.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Deals/top.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Deals/topPromo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Portfolio/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Portfolio/section.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Portfolio/single/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Portfolio/single/section.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Portfolio/single/top.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Portfolio/top.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Product/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Product/product.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Product/top.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/Home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/__parts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/__parts/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/__parts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/__parts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/__parts/script.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/__parts/script.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583675953247</updated>
-      <workItem from="1583675957963" duration="10083000" />
+      <workItem from="1583675957963" duration="10856000" />
     </task>
     <servers />
   </component>
