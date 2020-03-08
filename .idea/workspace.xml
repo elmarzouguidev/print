@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8f896f0-397f-4f03-8686-56999b8fcb55" name="Default Changelist" comment="" />
+    <list default="true" id="c8f896f0-397f-4f03-8686-56999b8fcb55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/blog.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/brand.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/faq.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/ourservice.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/project.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/promo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/section-a.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/service.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/slider.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Home/testimonial.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/__parts/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/__parts/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/__parts/script.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +34,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -120,6 +145,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1YqhIafmG6hP7xdJAKkQqf0RQXc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -127,6 +155,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -146,11 +175,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583675953247</updated>
-      <workItem from="1583675957963" duration="1087000" />
+      <workItem from="1583675957963" duration="4250000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="728" y="411" key="NewPhpFileDialog" timestamp="1583681054970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="728" y="411" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583681054970" />
   </component>
 </project>
