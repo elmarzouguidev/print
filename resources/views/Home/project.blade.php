@@ -1,49 +1,31 @@
 <section class="project-style-one sec-pad sec-pad-content-margin-80">
     <div class="container">
         <div class="block-title text-center">
-            <p class="block-title__tag-line">Work Showcase</p>
-            <h2 class="block-title__title">Recent Projects</h2>
+            <!-- <p class="block-title__tag-line">Work Showcase</p> -->
+            <h2 class="block-title__title">Les produits recents</h2>
         </div><!-- /.block-title -->
         <div class="row">
-            <div class="col-lg-4">
-                <div class="project-style-one__single content-margin-80">
-                    <div class="project-style-one__image-block">
-                        <img src="images/projects/project-1-1.jpg" alt="Awesome Image" />
-                    </div><!-- /.project-style-one__image-block -->
-                    <div class="project-style-one__text-block thm-gray-bg text-center">
-                        <span class="project-style-one__category">Printing</span>
-                        <h3 class="project-style-one__title"><a href="#">Thick Paper Book</a></h3>
-                        <!-- /.project-style-one__title -->
-                        <a href="#" class="project-style-one__more-link"><i class="fa fa-plus"></i></a>
-                    </div><!-- /.project-style-one__text-block -->
-                </div><!-- /.project-style-one__single -->
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <div class="project-style-one__single content-margin-80">
-                    <div class="project-style-one__image-block">
-                        <img src="images/projects/project-1-2.jpg" alt="Awesome Image" />
-                    </div><!-- /.project-style-one__image-block -->
-                    <div class="project-style-one__text-block thm-gray-bg text-center">
-                        <span class="project-style-one__category">Copying</span>
-                        <h3 class="project-style-one__title"><a href="#">Ninety Nine You</a></h3>
-                        <!-- /.project-style-one__title -->
-                        <a href="#" class="project-style-one__more-link"><i class="fa fa-plus"></i></a>
-                    </div><!-- /.project-style-one__text-block -->
-                </div><!-- /.project-style-one__single -->
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <div class="project-style-one__single content-margin-80">
-                    <div class="project-style-one__image-block">
-                        <img src="images/projects/project-1-3.jpg" alt="Awesome Image" />
-                    </div><!-- /.project-style-one__image-block -->
-                    <div class="project-style-one__text-block thm-gray-bg text-center">
-                        <span class="project-style-one__category">Printing</span>
-                        <h3 class="project-style-one__title"><a href="#">Colorful Photo Print</a></h3>
-                        <!-- /.project-style-one__title -->
-                        <a href="#" class="project-style-one__more-link"><i class="fa fa-plus"></i></a>
-                    </div><!-- /.project-style-one__text-block -->
-                </div><!-- /.project-style-one__single -->
-            </div><!-- /.col-lg-4 -->
+            @foreach($products as $product)
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="service-three__single content-margin-80">
+                        <div class="service-three__image">
+                            <img src="{{Voyager::image($product->image)}}" alt="{{$product->name}}"/>
+                        </div><!-- /.service-three__image -->
+                        <div class="service-three__text-block">
+                            <div class="service-three__price-block">
+                                <span class="service-three__price-text">a partir de</span>
+                                <p class="service-three__price-amount">{{$product->price}} MAD</p>
+                            </div><!-- /.service-three__price-block -->
+                            <h3 class="service-three__title"><a href="">{{$product->name}}</a></h3><!-- /.service-three__title -->
+                            <p class="service-three__text">
+                                {!! $product->content !!}
+                            </p><!-- /.service-three__text -->
+                            <a href="#" class="service-three__link"><i class="fa fa-angle-right"></i></a>
+                        </div><!-- /.service-three__text-block -->
+                    </div><!-- /.service-three__single -->
+                </div><!-- /.col-lg-4 -->
+            @endforeach
+
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.project-style-one -->

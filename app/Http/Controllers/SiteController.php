@@ -4,10 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Deal;
 use App\Faq;
+use App\Portfolio;
+use App\Product;
 use App\Service;
 use App\Slider;
 use App\Testimonial;
 use Illuminate\Http\Request;
+use TCG\Voyager\Models\Post;
 
 class SiteController extends Controller
 {
@@ -25,7 +28,13 @@ class SiteController extends Controller
 
         $faqs = Faq::whereActive(true)->get();
 
-        return view('Home.index',compact('sliders','deals','services','testimonials','faqs'));
+        $portfolios  = Portfolio::whereActive(true)->get();
+
+        $products =  Product::OrderBy('created_at')->limit(3)->get();
+
+        $posts = Post::whereStatus('published')->get();
+
+        return view('Home.index',compact('posts','sliders','deals','services','testimonials','faqs','portfolios','products'));
     }
     public function about()
     {
@@ -34,12 +43,20 @@ class SiteController extends Controller
 
     public function products()
     {
-        return view('Product.index');
+        $products = Product::all();
+
+        return view('Product.index',compact('products'));
     }
 
+    public function blogSingle($slug)
+    {
+        $post = Post::whereSlug($slug)->firstOrFail();
+        return view('Blog.single.index',compact('post'));
+    }
     public function promos()
     {
-        return view('Deals.index');
+        $top = Deal::where('topPromo',true)->first();
+        return view('Deals.index',compact('top'));
     }
     public function promosSingle($slug)
     {
@@ -50,12 +67,15 @@ class SiteController extends Controller
 
     public function portfolio()
     {
-        return view('Portfolio.index');
+        $portfolios  = Portfolio::whereActive(true)->get();
+
+        return view('Portfolio.index',compact('portfolios'));
     }
 
     public function portfolioSingle($slug)
     {
-        return view('Portfolio.single.index');
+        $portfolio = Portfolio::whereSlug($slug)->firstOrFail();
+        return view('Portfolio.single.index',compact('portfolio'));
     }
 
     public function contact()

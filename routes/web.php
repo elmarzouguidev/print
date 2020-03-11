@@ -24,6 +24,8 @@ Route::get('/portfolio/{slug}',['uses'=>'SiteController@portfolioSingle','as'=>'
 
 Route::get('/contact',['uses'=>'SiteController@contact','as'=>'contact']);
 
+Route::get('/blog',['uses'=>'SiteController@blog','as'=>'blog']);
+Route::get('/blog/{slug}',['uses'=>'SiteController@blogSingle','as'=>'blog.single']);
 
 
 
