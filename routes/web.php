@@ -13,8 +13,12 @@
 
 Route::get('/',['uses'=>'SiteController@index','as'=>'home']);
 Route::get('/about',['uses'=>'SiteController@about','as'=>'about']);
-Route::get('/promos',['uses'=>'SiteController@promos','as'=>'promos']);
+
+Route::get('/deals',['uses'=>'SiteController@promos','as'=>'promos']);
+Route::get('/deals/{slug}',['uses'=>'SiteController@promosSingle','as'=>'promos.single']);
+
 Route::get('/products',['uses'=>'SiteController@products','as'=>'products']);
+
 Route::get('/portfolio',['uses'=>'SiteController@portfolio','as'=>'portfolio']);
 Route::get('/portfolio/{slug}',['uses'=>'SiteController@portfolioSingle','as'=>'portfolioSingle']);
 

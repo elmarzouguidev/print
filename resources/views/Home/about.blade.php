@@ -7,22 +7,21 @@
                         <span class="about-three__year__title">20</span>
                         <span class="about-three__year__text">years experience</span>
                     </div><!-- /.about-three__year -->
-                    <img src="images/resources/about-1-1.jpg" alt="Awesome Image" />
-                    <div class="about-three__image-two">
-                        <img src="images/resources/about-1-2.jpg" alt="Awesome Image" />
-                    </div><!-- /.about-three__image-two -->
-                </div><!-- /.about-three__image -->
+                    <img src="{{Voyager::image(setting('home.presentation_image'))}}" alt="{{setting('home.presentation_title')}}" />
+                    <!-- <div class="about-three__image-two">
+                         <img src="images/resources/about-1-2.jpg" alt="Awesome Image" />
+                     </div> -->
+                 </div><!-- /.about-three__image -->
             </div><!-- /.col-lg-6 -->
             <div class="col-lg-6">
                 <div class="about-three__content content-margin-50">
                     <div class="block-title mb-0">
-                        <p class="block-title__tag-line">Welcome to Dexen</p>
-                        <h2 class="block-title__title">Copying and Printing <br> Service Center</h2>
+                        <!-- <p class="block-title__tag-line">Welcome to Dexen</p>-->
+                        <h2 class="block-title__title">{{setting('home.presentation_title')}}</h2>
                     </div><!-- /.block-title -->
-                    <p class="about-three__text">There are many variations of passages of available but the
-                        majority have suffered alteration in some form, by injected humou or randomised words
-                        which don't look even slightly believable. If you are going to use a passage of you need
-                        to be sure there isn't anything embarr assing hidden in the middle of text.</p>
+                    <p class="about-three__text">
+                        {{setting('home.presentation')}}
+                    </p>
                     <!-- /.about-three__text -->
                     <div class="about-three__discount">
                         <div class="about-three__discount__icon">

@@ -2,6 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Deal;
+use App\Faq;
+use App\Service;
+use App\Slider;
+use App\Testimonial;
 use Illuminate\Http\Request;
 
 class SiteController extends Controller
@@ -10,7 +15,17 @@ class SiteController extends Controller
 
     public function index()
     {
-        return view('Home.index');
+        $sliders = Slider::whereActive(true)->get();
+
+        $deals   = Deal::whereActive(true)->get();
+
+        $services = Service::whereActive(true)->get();
+
+        $testimonials = Testimonial::all();
+
+        $faqs = Faq::whereActive(true)->get();
+
+        return view('Home.index',compact('sliders','deals','services','testimonials','faqs'));
     }
     public function about()
     {
@@ -25,6 +40,12 @@ class SiteController extends Controller
     public function promos()
     {
         return view('Deals.index');
+    }
+    public function promosSingle($slug)
+    {
+        $deal = Deal::whereSlug($slug)->firstOrFail();
+        $deals   = Deal::whereActive(true)->get();
+        return view('Deals.single.index',compact('deal','deals'));
     }
 
     public function portfolio()

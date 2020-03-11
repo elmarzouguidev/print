@@ -26,16 +26,18 @@
             </div><!-- /.logo-box -->
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="main-navigation" id="main-nav-bar">
-                <ul class="sub-menu navigation-box">
+                <ul class="navigation-box">
+
                     <li class=" current ">
                         <a href="{{route('home')}}">ACCUEIL</a>
-
                     </li>
                     {{-- <li><a href="{{route('about')}}">About Us</a></li>--}}
                     <li><a href="{{route('promos')}}">DEALS</a></li>
                     <li><a href="{{route('products')}}">PRODUITS</a></li>
                     <li><a href="{{route('portfolio')}}">PORTFOLIO</a></li>
                     <li><a href="{{route('contact')}}">CONTACTEZ-NOUS</a></li>
+                    <ul class="sub-menu">
+                    </ul>
                 </ul>
             </div><!-- /.navbar-collapse -->
             <div class="right-side-box">

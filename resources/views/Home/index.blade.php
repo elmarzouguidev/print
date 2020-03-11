@@ -2,7 +2,7 @@
 
 @section('content')
 
-    @include('Home.slider')
+    @include('Home.sliderA')
     @include('Home.about')
     @include('Home.ourservice')
     @include('Home.service')

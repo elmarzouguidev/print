@@ -702,7 +702,7 @@ hr.style-one {
     display: inline-block;
     width: 43px;
     height: 43px;
-    background-color: #ef425a;
+    background-color: #f1b207;
     border-radius: 50%;
     text-align: center;
     transition: all .4s ease;
@@ -715,7 +715,7 @@ hr.style-one {
 }
 
 .site-header.header-one .top-bar .social-block a:hover {
-    background-color: #35c5af;
+    background-color: #02080a;
 }
 
 .site-header.header-one .top-bar .social-block a+a {
@@ -969,7 +969,7 @@ hr.style-one {
     vertical-align: middle;
     color: #FFFFFF;
     font-size: 18px;
-    background-color: #35c5af;
+    background-color: #f1b207;
     padding: 19.5px 50px;
     transition: all .4s ease;
     margin-top: 40px;
