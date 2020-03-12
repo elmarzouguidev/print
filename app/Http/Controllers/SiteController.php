@@ -56,7 +56,10 @@ class SiteController extends Controller
     public function promos()
     {
         $top = Deal::where('topPromo',true)->first();
-        return view('Deals.index',compact('top'));
+
+        $deals = Deal::all();
+
+        return view('Deals.index',compact('top','deals'));
     }
     public function promosSingle($slug)
     {

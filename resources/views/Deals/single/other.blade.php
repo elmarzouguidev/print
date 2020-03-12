@@ -13,7 +13,7 @@
                         </div><!-- /.project-style-one__image-block -->
                         <div class="project-style-one__text-block thm-gray-bg text-center">
                             <span class="project-style-one__category"></span>
-                            <h3 class="project-style-one__title"><a href="#">{{$deal->title}}</a></h3>
+                            <h3 class="project-style-one__title"><a href="{{route('promos.single',$deal->slug)}}">{{$deal->title}}</a></h3>
                             <!-- /.project-style-one__title -->
                             <a href="{{route('promos.single',$deal->slug)}}" class="project-style-one__more-link"><i class="fa fa-plus"></i></a>
                         </div><!-- /.project-style-one__text-block -->
