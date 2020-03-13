@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="content-block">
-                        <a href="#"><img src="images/resources/logo-w.png" alt="Awesome Image" /></a>
+                        <a href="#"><img src="{{asset('/images/resources/logo-w.png')}}" alt="HaymacPrint" /></a>
                         <div class="menu-link">
                             <a href="#">Terms of use</a>
                             <span class="sep">.</span>
@@ -58,9 +58,9 @@
                             <div class="widget-title">
                                 <h3>Contact</h3>
                             </div><!-- /.widget-title -->
-                            <p>666 888 0000</p>
-                            <p>needhelp@example.com</p>
-                            <p>66 Road Broklyn Street, 600 <br> New York, USA</p>
+                            <p>{{setting('all-setting.tele')}}</p>
+                            <p>{{setting('all-setting.email')}}</p>
+                            <p>{{setting('all-setting.address')}}</p>
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-lg-3 -->
                     <div class="col-lg-2">
@@ -69,27 +69,22 @@
                                 <h3>Explore</h3>
                             </div><!-- /.widget-title -->
                             <ul class="link-list">
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Plans & Pricing</a></li>
-                                <li><a href="#">How it Works</a></li>
+                               
+                            <li><a href="{{route('contact')}}">Contactez-nous</a></li>
+                                <li><a href="{{route('products')}}">Produits</a></li>
+                                <li><a href="{{route('portfolio')}}">Portfolio</a></li>
+                            <li><a href="{{route('promos')}}">Deals</a></li>
                             </ul><!-- /.link-list -->
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-lg-2 -->
                     <div class="col-lg-4">
                         <div class="footer-widget">
                             <div class="widget-title">
-                                <h3>About Dexen</h3>
+                                <h3>A propos</h3>
                             </div><!-- /.widget-title -->
                             <p>Lorem ipsum dolor sit amet, consectetur adip sicing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua.</p>
-                            <div class="social-block">
-                                <a href="#"><i class="fa fa-facebook-f"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                                <a href="#"><i class="fa fa-pinterest"></i></a>
-                            </div><!-- /.social-block -->
+                       
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-lg-4 -->
                 </div><!-- /.row -->
@@ -99,7 +94,7 @@
     <div class="bottom-footer text-center">
         <div class="container">
             <div class="inner-container">
-                <p>&copy; All copyrights are reserved. 2019 <a href="#">TonaTheme.com</a></p>
+                <p>&copy; All copyrights are reserved. 2020 <a href="#">haymacprint</a></p>
             </div><!-- /.inner-container -->
         </div><!-- /.container -->
     </div><!-- /.bottom-footer -->

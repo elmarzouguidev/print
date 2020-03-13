@@ -2,7 +2,7 @@
     <div class="container">
         <div class="block-title text-center">
             <!-- <p class="block-title__tag-line">Our Services</p> -->
-             <h2 class="block-title__title">Deals</h2>
+             <h2 class="block-title__title">{{setting('deals.deals_title')}}</h2>
          </div><!-- /.block-title -->
         <div class="row">
             @foreach($deals as $deal)

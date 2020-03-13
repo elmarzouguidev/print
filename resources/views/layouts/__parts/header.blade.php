@@ -2,17 +2,17 @@
     <div class="top-bar">
         <div class="container">
             <div class="social-block">
-                <a href="#"><i class="fa fa-facebook-f"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                <a href="#"><i class="fa fa-pinterest"></i></a>
+                <a href="{{setting('all-setting.facebook')}}"><i class="fa fa-facebook-f"></i></a>
+                <a href="{{setting('all-setting.twitter')}}"><i class="fa fa-twitter"></i></a>
+                <a href="{{setting('all-setting.youtube')}}"><i class="fa fa-youtube-play"></i></a>
+                <a href="{{setting('all-setting.pinterest')}}"><i class="fa fa-pinterest"></i></a>
             </div><!-- /.social-block 7E7F82 -->
             <div class="logo-block">
-                <a href="/"><img src="images/resources/bgo.png" alt="Awesome Image" /></a>
+            <a href="{{route('home')}}"><img src="{{asset('images/resources/bgo.png')}}" alt="HayMacPrint" /></a>
             </div><!-- /.logo-block -->
             <div class="right-block">
-                <a href="#"><i class="fa fa-envelope"></i>needhelp@example.com</a>
-                <a href="#"><i class="fa fa-phone-square"></i>666 888 0000</a>
+                <a href="#"><i class="fa fa-envelope"></i>{{setting('all-setting.email')}}</a>
+                <a href="#"><i class="fa fa-phone-square"></i>{{setting('all-setting.tele')}}</a>
             </div><!-- /.right-block -->
         </div><!-- /.container -->
     </div><!-- /.top-bar -->
@@ -42,10 +42,10 @@
             </div><!-- /.navbar-collapse -->
             <div class="right-side-box">
                 <div class="header__social-block">
-                    <a href="#"><i class="fa fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-youtube-play"></i></a>
-                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                    <a href="{{setting('all-setting.facebook')}}"><i class="fa fa-facebook-f"></i></a>
+                    <a href="{{setting('all-setting.twitter')}}"><i class="fa fa-twitter"></i></a>
+                    <a href="{{setting('all-setting.youtube')}}"><i class="fa fa-youtube-play"></i></a>
+                    <a href="{{setting('all-setting.pinterest')}}"><i class="fa fa-pinterest"></i></a>
                 </div><!-- /.social-block -->
             </div><!-- /.right-side-box -->
         </div>

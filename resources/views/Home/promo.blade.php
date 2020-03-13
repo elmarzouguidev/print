@@ -16,7 +16,7 @@
                         </ul><!-- /.cta-three__features -->
                     </div><!-- /.col-lg-12 -->
                 </div><!-- /.row -->
-                <a href="https://wa.me/212625238402" class="cta-three__btn thm-btn">Contact Us</a>
+                <a href="https://wa.me/212625238402" class="cta-three__btn thm-btn">Contactez-nous sur whatsapp</a>
             </div><!-- /.col-lg-5 -->
         </div><!-- /.row -->
     </div><!-- /.container -->
