@@ -12,11 +12,11 @@
                                 <span class="service-three__price-text">a partir de</span>
                                 <p class="service-three__price-amount">{{$product->price}} MAD</p>
                             </div><!-- /.service-three__price-block -->
-                            <h3 class="service-three__title"><a href="">{{$product->name}}</a></h3><!-- /.service-three__title -->
+                        <h3 class="service-three__title"><a href="{{route('product.single',$product->slug)}}">{{$product->name}}</a></h3><!-- /.service-three__title -->
                             <p class="service-three__text">
                                 {{$product->content}}
                             </p><!-- /.service-three__text -->
-                            <a href="#" class="service-three__link"><i class="fa fa-angle-right"></i></a>
+                            <a href="{{route('product.single',$product->slug)}}" class="service-three__link"><i class="fa fa-angle-right"></i></a>
                         </div><!-- /.service-three__text-block -->
                     </div><!-- /.service-three__single -->
                 </div><!-- /.col-lg-4 -->

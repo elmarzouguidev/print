@@ -48,6 +48,13 @@ class SiteController extends Controller
         return view('Product.index',compact('products'));
     }
 
+    public function productSingle($slug)
+    {
+        $product = Product::whereSlug($slug)->firstOrFail();
+
+        return view('Product.single.index',compact('product'));
+    }
+
     public function blogSingle($slug)
     {
         $post = Post::whereSlug($slug)->firstOrFail();

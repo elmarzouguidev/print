@@ -18,6 +18,7 @@ Route::get('/deals',['uses'=>'SiteController@promos','as'=>'promos']);
 Route::get('/deals/{slug}',['uses'=>'SiteController@promosSingle','as'=>'promos.single']);
 
 Route::get('/products',['uses'=>'SiteController@products','as'=>'products']);
+Route::get('/products/{slug}',['uses'=>'SiteController@productSingle','as'=>'product.single']);
 
 Route::get('/portfolio',['uses'=>'SiteController@portfolio','as'=>'portfolio']);
 Route::get('/portfolio/{slug}',['uses'=>'SiteController@portfolioSingle','as'=>'portfolioSingle']);
